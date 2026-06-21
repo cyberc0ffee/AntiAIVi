@@ -1,0 +1,19 @@
+{
+  "name": "antiai-vi",
+  "version": "0.1.0",
+  "description": "Open source antivirus/EDR reference implementation with static and behavioral engines.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "antiai": "./src/main.js"
+  },
+  "scripts": {
+    "scan": "python antiai.py scan",
+    "watch": "python antiai.py watch",
+    "replay": "python antiai.py replay",
+    "test": "python scripts/python_selftest.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

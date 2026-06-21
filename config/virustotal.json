@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "api_key": "INSERISCI_LA_TUA_CHIAVE_API_QUI",
+  "base_url": "https://www.virustotal.com/api/v3",
+  "timeout_ms": 15000,
+  "minimum_malicious": 1,
+  "minimum_suspicious": 3
+}
