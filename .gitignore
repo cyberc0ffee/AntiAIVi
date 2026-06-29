@@ -1,0 +1,5 @@
+.antiai/
+.tmp/
+config/virustotal.json
+__pycache__/
+*.pyc

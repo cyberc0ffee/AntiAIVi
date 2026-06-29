@@ -1,0 +1,9 @@
+{"type":"process.start","timestamp":"2026-01-01T10:00:00.000Z","pid":1000,"ppid":500,"image":"winword.exe","commandline":"winword.exe invoice.docm","signer":"Microsoft"}
+{"type":"process.start","timestamp":"2026-01-01T10:00:03.000Z","pid":1100,"ppid":1000,"image":"powershell.exe","commandline":"powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA","signer":"Unknown"}
+{"type":"registry.set","timestamp":"2026-01-01T10:00:09.000Z","pid":1100,"key":"HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run","value":"Updater","data":"C:\\Users\\Alice\\AppData\\Roaming\\updater.exe"}
+{"type":"memory.api","timestamp":"2026-01-01T10:00:12.000Z","pid":1100,"target_pid":2200,"api":"OpenProcess"}
+{"type":"memory.api","timestamp":"2026-01-01T10:00:13.000Z","pid":1100,"target_pid":2200,"api":"VirtualAllocEx"}
+{"type":"memory.api","timestamp":"2026-01-01T10:00:14.000Z","pid":1100,"target_pid":2200,"api":"WriteProcessMemory"}
+{"type":"memory.api","timestamp":"2026-01-01T10:00:15.000Z","pid":1100,"target_pid":2200,"api":"CreateRemoteThread"}
+{"type":"network.dns","timestamp":"2026-01-01T10:00:20.000Z","pid":1100,"query":"malicious.test","rcode":"NOERROR","ttl":60}
+{"type":"network.connect","timestamp":"2026-01-01T10:00:21.000Z","pid":1100,"remote_ip":"203.0.113.66","remote_port":443,"protocol":"tcp","bytes_out":512,"bytes_in":128}

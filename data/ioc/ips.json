@@ -1,0 +1,10 @@
+{
+  "ips": {
+    "203.0.113.66": {
+      "family": "Simulation-C2",
+      "severity": "critical",
+      "score": 90,
+      "description": "TEST-NET-3 address used for local detection tests."
+    }
+  }
+}

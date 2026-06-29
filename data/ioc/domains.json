@@ -1,0 +1,16 @@
+{
+  "domains": {
+    "malicious.test": {
+      "family": "Simulation-C2",
+      "severity": "critical",
+      "score": 90,
+      "description": "Reserved domain used for local detection tests."
+    },
+    "*.malicious.test": {
+      "family": "Simulation-C2",
+      "severity": "critical",
+      "score": 90,
+      "description": "Reserved wildcard domain used for local detection tests."
+    }
+  }
+}
